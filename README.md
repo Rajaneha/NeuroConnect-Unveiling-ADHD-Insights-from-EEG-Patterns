@@ -16,3 +16,7 @@
 </pre>
 
 Later, the analysis and modeling were translated to Streamlit for creating a User Interface representation.
+ADHD , Control Folder contains the csv files.
+MLLAB_interface.py is the code which also contains the streamlit part.
+ML_LABTEST_HACKATHON_FINAL.py contains only the analysis and machine learning part without UI.
+
