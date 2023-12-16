@@ -14,3 +14,5 @@
     Applied spectral clustering based on lobes and hemispheres.<br />
     Finding the rank of matrices and infer the values.<br />
 </pre>
+
+Later, the analysis and modeling were translated to Streamlit for creating a User Interface representation.
