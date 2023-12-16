@@ -1,15 +1,15 @@
 **EEG data analysis and modelling**
 
---Downloaded the adhd dataset from IEEE data portal
-    The dataset includes EEG data of 121 subjects of which 60 Adhd and 61 are control
-    Preprocessing:
-        All files are mat files, first converted into CSV.
-        Normalized the no of rows.
-    Found the nonlinear correlation coefficient for every column with every other column. As a result, got a 19*19 matrix for each subject.
-    Analysed the values.
-    Plot topoplot for one subject from adhd and one from control and find the inference.
-    For each class,
-      Found median value for each cell, As a result one matrix for each class is obtained.
-    Applied spectral clustering on these matrices and cluster the electrodes.
-    Applied spectral clustering based on lobes and hemispheres.
-    Finding the rank of matrices and infer the values.
+--Downloaded the adhd dataset from IEEE data portal<br />
+    The dataset includes EEG data of 121 subjects of which 60 Adhd and 61 are control<br />
+    Preprocessing:<br />
+        All files are mat files, first converted into CSV.<br />
+        Normalized the no of rows.<br />
+    Found the nonlinear correlation coefficient for every column with every other column. As a result, got a 19*19 matrix for each subject.<br />
+    Analysed the values.<br />
+    Plot topoplot for one subject from adhd and one from control and find the inference.<br />
+    For each class,<br />
+      Found median value for each cell, As a result one matrix for each class is obtained.<br />
+    Applied spectral clustering on these matrices and cluster the electrodes.<br />
+    Applied spectral clustering based on lobes and hemispheres.<br />
+    Finding the rank of matrices and infer the values.<br />
