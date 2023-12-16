@@ -1,5 +1,5 @@
 **EEG data analysis and modelling**
-
+<pre>
 --Downloaded the adhd dataset from IEEE data portal<br />
     The dataset includes EEG data of 121 subjects of which 60 Adhd and 61 are control<br />
     Preprocessing:<br />
@@ -13,3 +13,4 @@
     Applied spectral clustering on these matrices and cluster the electrodes.<br />
     Applied spectral clustering based on lobes and hemispheres.<br />
     Finding the rank of matrices and infer the values.<br />
+</pre>
