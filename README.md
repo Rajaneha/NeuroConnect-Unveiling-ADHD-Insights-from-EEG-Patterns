@@ -19,12 +19,13 @@ This project analyzes EEG data from the ADHD dataset obtained from the IEEE data
 
 4. **Matrix Processing:**
     - Calculate median values for each cell, resulting in one matrix for each class (ADHD and Control).
-
-5. **Spectral Clustering:**
+5. **SVM Classification:**
+    - Integrate Support Vector Machine (SVM) classification for diagnostic insights.
+6. **Spectral Clustering:**
     - Apply spectral clustering on matrices to cluster electrodes.
     - Apply spectral clustering based on lobes and hemispheres.
 
-6. **Rank Analysis:**
+7. **Rank Analysis:**
     - Find the rank of matrices and infer the values.
 
 ## Folder Structure
